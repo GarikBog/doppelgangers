@@ -3,6 +3,11 @@
 #define STRING
 #endif // !STRING
 
+#ifndef STACK
+#include<stack>
+#define STACK
+#endif // !STACK
+
 #ifndef VECTOR
 #include<vector>
 #define VECTOR
@@ -10,24 +15,23 @@
 
 
 
-
-
 class Request {
 private:
 	std::string command = "";
-	std::vector<std::string> args;
+	std::vector<std::string> arguments;
 
 public:
 	
 	Request(std::string command);
 	Request(std::string command, std::string args);
 
+	std::pair< std::string, std::vector < std::string>> data();
 };
 
 
 class Log {
 private:
-	std::vector<Request> requests;
+	std::stack<Request> requests;
 
 public:
 
