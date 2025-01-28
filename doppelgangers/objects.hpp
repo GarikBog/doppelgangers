@@ -65,7 +65,7 @@ public:
 
 class ClickableObject : public Object {
 
-private:
+protected:
 
 	Log& log;
 
@@ -75,6 +75,28 @@ public:
 
 	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };
+
+
+
+class Card : public ClickableObject{
+private:
+
+	int id;
+	std::string suit;
+	bool open;
+	
+
+
+public:
+
+	bool click(sf::RenderWindow& window);
+	void open_card();
+
+	Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log, int id, std::string suit);
+
+};
+
+
 
 
 

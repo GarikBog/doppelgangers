@@ -23,7 +23,7 @@ private:
 public:
 	
 	Request(std::string command);
-	Request(std::string command, std::string args);
+	Request(std::string command, std::vector<std::string> args);
 
 	std::pair< std::string, std::vector < std::string>> data();
 };
@@ -34,6 +34,7 @@ private:
 	std::stack<Request> requests;
 
 public:
+
 
 	void add(Request request);
 	

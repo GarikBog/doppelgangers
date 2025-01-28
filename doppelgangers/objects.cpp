@@ -183,3 +183,22 @@ ClickableObject::ClickableObject(std::pair<float, float> pos, std::pair<int, int
 }
 //ClickableObject
 
+bool Card::click(sf::RenderWindow& window)
+{
+	if (ClickableObject::click(window)) {
+		log.add(Request("open_card", { std::to_string(id),suit }));
+	}
+}
+
+void Card::open_card()
+{
+	open = !open;
+}
+
+Card::Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log, int id, std::string suit) :
+	ClickableObject(pos, size, scale,texture_file, log),
+	id(id),
+	suit(suit),
+	open(false)
+{
+}
