@@ -136,6 +136,7 @@
     <ClCompile Include="objects.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="field.hpp" />
     <ClInclude Include="log.hpp" />
     <ClInclude Include="objects.hpp" />
   </ItemGroup>
