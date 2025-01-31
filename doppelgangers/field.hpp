@@ -13,19 +13,23 @@
 #define OBJECTS
 #endif // !OBJECTS
 
-
+#ifndef CARD
+#include"card.hpp"
+#define CARD
+#endif // !CARD
 
 
 class Field : public Object{
 
 private:
+	//SIZE POS
+	int card_width = 0, card_height = 0,indent_width = 0,indent_height = 0,indent_between_widht = 0,indent_between_height = 0;
+
+	//TECH
 	std::vector<Card*> cards;
 
-
 public:
-	//SIZE POS
 	
-	int card_width = 0, card_height = 0,indent_width = 0,indent_height = 0,indent_between = 0;
 	 
 	//TECH
 	void recombinate();
