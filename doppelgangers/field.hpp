@@ -23,19 +23,23 @@ class Field : public Object{
 
 private:
 	//SIZE POS
-	int card_width = 0, card_height = 0,indent_width = 0,indent_height = 0,indent_between_widht = 0,indent_between_height = 0;
+	int card_width = 0, card_height = 0,indent_width = 0,indent_height = 0,indent_between_width = 0,indent_between_height = 0;
 
+	//TEXTURES
+	std::string cards_textures;
 	//TECH
 	std::vector<Card*> cards;
-
+	
 public:
 	
 	 
 	//TECH
 	void recombinate();
 	void create_cards();
-
-	Field(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, std::string cards_texture);
+	void draw(sf::RenderWindow& window);
+	void open_all();
+	void close_all();
+	Field(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, std::string cards_textures);
 
 
 };

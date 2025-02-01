@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "C:\\programming\\cpp\\doppelgangers\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\card.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\card.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\main.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -21,22 +37,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\log.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\field.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\log.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\objects.hpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{ED9C0DD6-AAD1-4443-B19E-CD7014AA62A0}|doppelgangers\\doppelgangers.vcxproj|solutionrelative:doppelgangers\\field.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -46,7 +46,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 13,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Bookmark",
@@ -76,35 +76,36 @@
               "RelativeDocumentMoniker": "doppelgangers\\card.hpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.hpp",
               "RelativeToolTip": "doppelgangers\\card.hpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAHAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-30T15:07:26.662Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "card.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.cpp",
               "RelativeDocumentMoniker": "doppelgangers\\card.cpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\card.cpp",
               "RelativeToolTip": "doppelgangers\\card.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA/AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAATAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-30T15:07:13.833Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 2,
               "Title": "field.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.cpp",
               "RelativeDocumentMoniker": "doppelgangers\\field.cpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.cpp",
               "RelativeToolTip": "doppelgangers\\field.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAZAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-30T15:06:15.613Z"
+              "WhenOpened": "2025-01-30T15:06:15.613Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -114,70 +115,69 @@
               "RelativeDocumentMoniker": "doppelgangers\\field.hpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\field.hpp",
               "RelativeToolTip": "doppelgangers\\field.hpp",
-              "ViewState": "AgIAACoAAAAAAAAAAAAAABkAAAB2AAAAAAAAAA==",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAACcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-29T14:29:11.115Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 3,
               "Title": "log.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.cpp",
               "RelativeDocumentMoniker": "doppelgangers\\log.cpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.cpp",
               "RelativeToolTip": "doppelgangers\\log.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-27T14:43:20.674Z"
+              "WhenOpened": "2025-01-27T14:43:20.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 8,
               "Title": "log.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.hpp",
               "RelativeDocumentMoniker": "doppelgangers\\log.hpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\log.hpp",
               "RelativeToolTip": "doppelgangers\\log.hpp",
-              "ViewState": "AgIAAAwAAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-01-26T16:26:59.988Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T16:26:59.988Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 7,
               "Title": "objects.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.cpp",
               "RelativeDocumentMoniker": "doppelgangers\\objects.cpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.cpp",
               "RelativeToolTip": "doppelgangers\\objects.cpp",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAAALkAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAEoAAAAAAAAAAAAAALkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2025-01-26T16:26:14.251Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-01-26T16:26:14.251Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "objects.hpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.hpp",
               "RelativeDocumentMoniker": "doppelgangers\\objects.hpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\objects.hpp",
               "RelativeToolTip": "doppelgangers\\objects.hpp",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAE8AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAABkAAAAKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
               "WhenOpened": "2025-01-26T16:17:51.138Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "main.cpp",
               "DocumentMoniker": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\main.cpp",
               "RelativeDocumentMoniker": "doppelgangers\\main.cpp",
               "ToolTip": "C:\\programming\\cpp\\doppelgangers\\doppelgangers\\main.cpp",
               "RelativeToolTip": "doppelgangers\\main.cpp",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-01-26T16:16:58.18Z",
               "EditorCaption": ""
