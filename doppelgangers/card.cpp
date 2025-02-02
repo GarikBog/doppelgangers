@@ -19,6 +19,14 @@ int Card::get_suit() const
 	return suit;
 }
 
+bool Card::click(sf::Vector2i mouse_pos)
+{
+	if (!open) {
+		return ClickableObject::click(mouse_pos);
+	}
+	return false;
+}
+
 void Card::open_card()
 {
 	if (!open) {
@@ -50,8 +58,8 @@ void Card::swap_suit(Card* card)
 
 
 
-Card::Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, unsigned int suit) :
-	Object(pos, size, scale, texture_file),
+Card::Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, unsigned int suit, Log& log) :
+	ClickableObject(pos, size, scale, texture_file,log),
 	suit(suit),
 	open(false)
 {

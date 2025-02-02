@@ -71,7 +71,7 @@ protected:
 
 public:
 
-	bool click(sf::RenderWindow& window);
+	bool click(sf::Vector2i mouse_pos);
 
 	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };

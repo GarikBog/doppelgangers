@@ -24,7 +24,7 @@
     <ClCompile Include="log.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="field.cpp">
+    <ClCompile Include="cardField.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
     <ClCompile Include="card.cpp">
@@ -38,7 +38,7 @@
     <ClInclude Include="log.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="field.hpp">
+    <ClInclude Include="cardField.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
     <ClInclude Include="card.hpp">

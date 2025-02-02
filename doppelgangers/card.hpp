@@ -9,7 +9,7 @@
 
 
 
-class Card : public Object {
+class Card : public ClickableObject {
 private:
 
 
@@ -26,13 +26,14 @@ public:
 	int get_suit() const;
 
 	//TECH
+	bool click(sf::Vector2i mouse_pos);
 	void open_card();
 	void close();
 	bool is_open() const;
 	void swap_suit(Card* card);
 
 
-	Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, unsigned int suit);
+	Card(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, unsigned int suit, Log& log);
 
 };
 

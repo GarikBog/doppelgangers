@@ -24,6 +24,8 @@ public:
 	
 	Request(std::string command);
 	Request(std::string command, std::vector<std::string> args);
+	Request(std::pair< std::string, std::vector < std::string>>);
+
 
 	std::pair< std::string, std::vector < std::string>> data();
 };

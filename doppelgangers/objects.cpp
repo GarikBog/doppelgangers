@@ -163,9 +163,8 @@ Object::Object(std::pair<float, float> pos,std::pair<int,int> size, std::pair<in
 
 
 //ClickableObject
-bool ClickableObject::click(sf::RenderWindow& window)
+bool ClickableObject::click(sf::Vector2i mouse_pos)
 {
-	sf::Vector2i mouse_pos = sf::Mouse::getPosition(window);
 
 	return (
 		mouse_pos.x > x &&

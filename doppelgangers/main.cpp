@@ -5,16 +5,16 @@
 #define CARD
 #endif // !CARD
 
-#ifndef FIELD
-#include "field.hpp"
-#define FIELD
-#endif // !FIELD
+#ifndef CARDFIELD
+#include "CardField.hpp"
+#define CARDFIELD
+#endif // !CardField
 
 int main()
 {
     sf::RenderWindow window(sf::VideoMode(2000, 1750), "SFML works!");
-
-    Field field({50,50}, {825,860}, {825,860}, "fields/defolt.png", "cards/memes.png");
+    Log log;
+    CardField cardField({50,50}, {825,860}, {825,860}, "CardFields/defolt.png", "cards/memes.png",log);
 
     while (window.isOpen())
     {
@@ -25,16 +25,16 @@ int main()
                 window.close();
             if (event.type == sf::Event::MouseButtonReleased) {
                 if (event.mouseButton.button == sf::Mouse::Left) {
-                    field.open_all();
+                    cardField.click(sf::Mouse::getPosition(window));
                 }
                 else {
-                    field.close_all();
+                    cardField.close_all();
                 }
             }
         }
 
         window.clear();
-        field.draw(window);
+        cardField.draw(window);
         window.display();
     }
 

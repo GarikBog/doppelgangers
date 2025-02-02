@@ -132,14 +132,14 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="card.cpp" />
-    <ClCompile Include="field.cpp" />
+    <ClCompile Include="cardField.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="objects.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.hpp" />
-    <ClInclude Include="field.hpp" />
+    <ClInclude Include="cardField.hpp" />
     <ClInclude Include="log.hpp" />
     <ClInclude Include="objects.hpp" />
   </ItemGroup>
