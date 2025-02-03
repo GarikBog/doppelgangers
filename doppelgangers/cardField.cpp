@@ -18,7 +18,8 @@
 #define STRING
 #endif // !STRING
 
-
+#include <chrono>
+#include <thread>
 
 
 void CardField::click(sf::Vector2i mouse_pos)
