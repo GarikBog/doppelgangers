@@ -77,3 +77,38 @@ public:
 };
 
 
+
+class CounterObject : public Object {
+
+protected:
+	
+
+	sf::Sprite left_cell, middle_cell, right_cell;
+
+
+public:
+
+	//Setters
+	void set_pos(std::pair<float, float> pos);
+	void set_pos(float x, float y);
+	void set_x(float x);
+	void set_y(float y);
+
+	void set_scale(std::pair<int, int> size);
+	void set_scale(int width, int height);
+	void set_width(int width);
+	void set_height(int height);
+
+	void set_texture(std::string texture_file);
+	void set_texture_rect(sf::IntRect rect);
+
+
+
+	//Tech & other
+	virtual void update() = 0;
+	void draw(sf::RenderWindow& window);
+
+	CounterObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
+
+
+};

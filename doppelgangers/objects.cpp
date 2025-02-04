@@ -182,3 +182,191 @@ ClickableObject::ClickableObject(std::pair<float, float> pos, std::pair<int, int
 }
 //ClickableObject
 
+
+//CounterObject
+void CounterObject::set_pos(std::pair<float, float> pos)
+{
+	x = pos.first;
+	y = pos.second;
+
+	sprite.setPosition({ x,y });
+	left_cell.setPosition({ x,y });
+	middle_cell.setPosition({ x + width / 3,y });
+	right_cell.setPosition({ x + width * 2 / 3,y });
+
+}
+
+void CounterObject::set_pos(float x, float y)
+{
+	this->x = x;
+	this->y = y;
+
+	sprite.setPosition({ x,y });
+	left_cell.setPosition({ x,y });
+	middle_cell.setPosition({ x + width / 3,y });
+	right_cell.setPosition({ x + width * 2 / 3,y });
+}
+
+void CounterObject::set_x(float x)
+{
+
+	this->x = x;
+
+	sprite.setPosition({ x,y });
+	left_cell.setPosition({ x,y });
+	middle_cell.setPosition({ x + width / 3,y });
+	right_cell.setPosition({ x + width * 2 / 3,y });
+}
+
+void CounterObject::set_y(float y)
+{
+
+	this->y = y;
+
+	sprite.setPosition({ x,y });
+	left_cell.setPosition({ x,y });
+	middle_cell.setPosition({ x + width / 3,y });
+	right_cell.setPosition({ x + width * 2 / 3,y });
+}
+
+void CounterObject::set_scale(std::pair<int, int> size)
+{
+	width = size.first;
+	height = size.second;
+
+	float local_width = sprite.getLocalBounds().width, local_height = sprite.getLocalBounds().height;
+	sprite.setScale({
+		width / local_width,
+		height / local_height });
+
+	left_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+
+	middle_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+	right_cell.setScale({
+		width / local_width,
+		height / local_height });
+}
+
+void CounterObject::set_scale(int width, int height)
+{
+	this->width = width;
+	this->height = height;
+
+	float local_width = sprite.getLocalBounds().width, local_height = sprite.getLocalBounds().height;
+	sprite.setScale({
+		width / local_width,
+		height / local_height });
+
+	left_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+
+	middle_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+	right_cell.setScale({
+		width / local_width,
+		height / local_height });
+}
+
+void CounterObject::set_width(int width)
+{
+	this->width = width;
+
+	float local_width = sprite.getLocalBounds().width, local_height = sprite.getLocalBounds().height;
+	sprite.setScale({
+		width / local_width,
+		height / local_height });
+
+	left_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+
+	middle_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+	right_cell.setScale({
+		width / local_width,
+		height / local_height });
+}
+
+void CounterObject::set_height(int height)
+{
+	this->height = height;
+
+	float local_width = sprite.getLocalBounds().width, local_height = sprite.getLocalBounds().height;
+	sprite.setScale({
+		width / local_width,
+		height / local_height });
+
+	left_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+
+	middle_cell.setScale({
+		width / local_width,
+		height / local_height });
+
+	right_cell.setScale({
+		width / local_width,
+		height / local_height });
+}
+
+void CounterObject::set_texture(std::string texture_file)
+{
+	if (!texture.loadFromFile("textures/objects/" + texture_file)) {
+		texture.loadFromFile("textures/tech/error.jpg");
+	}
+
+	sprite.setTexture(texture);
+	left_cell.setTexture(texture);
+	middle_cell.setTexture(texture);
+	right_cell.setTexture(texture);
+
+}
+void CounterObject::set_texture_rect(sf::IntRect rect)
+{
+	Object::set_texture_rect(rect);
+
+	left_cell.setTextureRect({ 0,0,20,35 });
+	middle_cell.setTextureRect({ 0,0,20,35 });
+	right_cell.setTextureRect({ 0,0,20,35 });
+
+}
+
+void CounterObject::draw(sf::RenderWindow& window)
+{
+	update();
+	Object::draw(window);
+	window.draw(left_cell);
+	window.draw(middle_cell);
+	window.draw(right_cell);
+
+}
+
+
+CounterObject::CounterObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file)
+{
+	set_texture(texture_file);
+	set_texture_rect({ 0,0,size.first,size.second });
+	set_scale(scale);
+	set_pos(pos);
+
+}
+
+//CounterObject
+
+
+
+

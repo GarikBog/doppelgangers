@@ -136,6 +136,7 @@
     <ClCompile Include="log.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="objects.cpp" />
+    <ClCompile Include="pointsCounter.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.hpp" />
@@ -143,7 +144,7 @@
     <ClInclude Include="doppengangers.hpp" />
     <ClInclude Include="log.hpp" />
     <ClInclude Include="objects.hpp" />
-    <ClInclude Include="pointerCounter.hpp" />
+    <ClInclude Include="pointsCounter.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
