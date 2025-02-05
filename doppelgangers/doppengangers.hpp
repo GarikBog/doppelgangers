@@ -25,7 +25,10 @@
 #define LOG
 #endif // !LOG
 
-
+#ifndef POINTS_COUNTER
+#include "doppenlgangers_objects.hpp"
+#define POINTS_COUNTER
+#endif // !POINTS_COUNTER
 
 class Doppelgagners {
 
@@ -37,6 +40,8 @@ private:
 	sf::RenderWindow* window;
 	CardField* field;
 	Object* background;
+	PointsCounter* point_counter;
+	
 	Log log;
 
 	std::vector<Object*> tmp_objects;

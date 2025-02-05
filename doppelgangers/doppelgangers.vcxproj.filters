@@ -30,7 +30,10 @@
     <ClCompile Include="card.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
-    <ClCompile Include="pointsCounter.cpp">
+    <ClCompile Include="doppenlgangers_objects.cpp">
+      <Filter>Исходные файлы</Filter>
+    </ClCompile>
+    <ClCompile Include="doppengangers.cpp">
       <Filter>Исходные файлы</Filter>
     </ClCompile>
   </ItemGroup>
@@ -50,7 +53,7 @@
     <ClInclude Include="doppengangers.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
-    <ClInclude Include="pointsCounter.hpp">
+    <ClInclude Include="doppenlgangers_objects.hpp">
       <Filter>Файлы заголовков</Filter>
     </ClInclude>
   </ItemGroup>

@@ -133,10 +133,11 @@
   <ItemGroup>
     <ClCompile Include="card.cpp" />
     <ClCompile Include="cardField.cpp" />
+    <ClCompile Include="doppengangers.cpp" />
     <ClCompile Include="log.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="objects.cpp" />
-    <ClCompile Include="pointsCounter.cpp" />
+    <ClCompile Include="doppenlgangers_objects.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="card.hpp" />
@@ -144,7 +145,7 @@
     <ClInclude Include="doppengangers.hpp" />
     <ClInclude Include="log.hpp" />
     <ClInclude Include="objects.hpp" />
-    <ClInclude Include="pointsCounter.hpp" />
+    <ClInclude Include="doppenlgangers_objects.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
