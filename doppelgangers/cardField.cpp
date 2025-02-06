@@ -40,6 +40,9 @@ void CardField::click(sf::Vector2i mouse_pos)
 						cards[std::stoi(request.second[1])]->close();
 						card->close();
 					}
+					else {
+						log.add({ "ADD_POINT", {} });
+					}
 				}
 			}
 		}

@@ -41,16 +41,20 @@ private:
 	CardField* field;
 	Object* background;
 	PointsCounter* point_counter;
+	CloseButton* close_button;
+	RestartButton* restart_button;
+
 	
 	Log log;
 
-	std::vector<Object*> tmp_objects;
-	std::vector<ClickableObject*> tmp_buttons;
 
 	void draw();
 
 	void restart();
 
+	void process_log();
+
+	void process_request(Request& request);
 public:
 
 	void start();

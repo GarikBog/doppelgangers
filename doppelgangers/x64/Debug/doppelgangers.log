@@ -1,5 +1,5 @@
-﻿  main.cpp
-C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(22,44): warning C4244: инициализация: преобразование "double" в "int", возможна потеря данных
+﻿  doppengangers.cpp
+C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(82,31): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
@@ -9,18 +9,18 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(25,25):
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,25):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,double,0>(_Other1 &&,_Other2 &&) noexcept"
           with
           [
               _Other1=int,
               _Other2=double
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(25,24):
-              см. первую ссылку на std::pair<float,float>::pair "main"
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,8):
+              см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
@@ -31,7 +31,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "doppengangers.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
@@ -42,18 +42,18 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=int
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(25,61):
-          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<int&,double,0>(_Other1,_Other2 &&) noexcept"
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,64):
+          выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<unsigned int&,double,0>(_Other1,_Other2 &&) noexcept"
           with
           [
-              _Other1=int &,
+              _Other1=unsigned int &,
               _Other2=double
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(25,24):
-              см. первую ссылку на std::pair<int,int>::pair "main"
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,8):
+              см. первую ссылку на std::pair<int,int>::pair "Doppelgagners::Doppelgagners"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         with
@@ -64,7 +64,7 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         [
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:             _Ty2=float
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "doppengangers.cpp")
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
@@ -75,17 +75,17 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:             _Ty1=float
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         ]
-  (компиляция исходного файла "main.cpp")
+  (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(29,34):
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(90,37):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<double,int,0>(_Other1 &&,_Other2 &&) noexcept"
           with
           [
               _Other1=double,
               _Other2=int
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\main.cpp(29,33):
-              см. первую ссылку на std::pair<float,float>::pair "main"
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(90,17):
+              см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
   
   doppelgangers.vcxproj -> C:\programming\cpp\doppelgangers\x64\Debug\doppelgangers.exe
