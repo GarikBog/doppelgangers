@@ -84,11 +84,11 @@ Doppelgagners::Doppelgagners(unsigned int height)
 	window = new sf::RenderWindow(sf::VideoMode{ window_width,window_height }, name, 0);
 	field =  new CardField({ 0,window_width * 0.2 }, { 825,860 }, { window_width,window_height - window_width * 0.2 }, "fields/defolt.png", "cards/memes.png", log);
 
-	point_counter = new PointsCounter({ 0,0 }, { 60,35 }, { window_width * 3 / 5 ,window_width / 5 }, "counters/defolt.png");
-	background = new Object({0,0},{1025,825},{window_width,window_height},"background/defolt.png");
+	point_counter = new PointsCounter({ 0,0 }, { 60,35 }, { window_width * 3 / 5 + 1,window_width / 5  + 1}, "counters/defolt.png");
+	background = new Object({0,0},{1025,825},{window_width,window_height},"backgrounds/defolt.png");
 
-	restart_button = new RestartButton({ window_width * 0.6,0 }, { 100,100 }, { window_width / 5 ,window_width / 5 }, "", log);
-	close_button = new CloseButton({ window_width * 0.8,0 }, { 100,100 }, { window_width / 5 ,window_width / 5 }, "", log);
+	restart_button = new RestartButton({ window_width * 0.6 - 1,0 }, { 165,165 }, { window_width / 5 + 1 ,window_width / 5 + 1 }, "buttons/restart.png", log);
+	close_button = new CloseButton({ window_width * 0.8 - 1,0 }, { 165,165 }, { window_width / 5 + 1 ,window_width / 5  + 1}, "buttons/close.png", log);
 
 }
 

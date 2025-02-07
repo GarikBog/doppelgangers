@@ -8,7 +8,7 @@
 int main()
 {
 
-    Doppelgagners game(860);
+    Doppelgagners game(2000);
 
 
 
