@@ -44,6 +44,7 @@ public:
 	void draw(sf::RenderWindow& window);
 	void open_all();
 	void close_all();
+	void close_cards(std::vector<std::string> closing_cards);
 	CardField(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, std::string cards_textures, Log& log );
 
 

@@ -30,16 +30,18 @@
 #define POINTS_COUNTER
 #endif // !POINTS_COUNTER
 
-class Doppelgagners {
+#ifndef GAME
+#include "game.hpp"
+#define GAME
+#endif // !GAME
+
+class Doppelgagners: public Game {
 
 
 private:
-	unsigned int window_width = 0, window_height = 0;
 	bool run = false;
 	std::string name = "Doppelgangers";
-	sf::RenderWindow* window;
 	CardField* field;
-	Object* background;
 	PointsCounter* point_counter;
 	CloseButton* close_button;
 	RestartButton* restart_button;

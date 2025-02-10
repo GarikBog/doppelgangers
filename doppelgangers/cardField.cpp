@@ -18,8 +18,16 @@
 #define STRING
 #endif // !STRING
 
+#ifndef CHRONO
 #include <chrono>
+#define CHRONO
+#endif // !CHRONO
+
+#ifndef THREAD
 #include <thread>
+#define THREAD
+#endif // !THREAD
+
 
 
 void CardField::click(sf::Vector2i mouse_pos)
@@ -35,13 +43,17 @@ void CardField::click(sf::Vector2i mouse_pos)
 					log.add({ request });
 					log.add({ "OPEN_CARD",{std::to_string(card->get_suit()),std::to_string(i)}});
 				}
+				
 				else {
 					if (request.second[0] != std::to_string(card->get_suit())) {
-						cards[std::stoi(request.second[1])]->close();
-						card->close();
+						log.add({ {"CLOSE_CARDS",
+							{request.second[1],
+							std::to_string(i)}} });
+						log.add({ "TIME_DELAY" });
 					}
 					else {
-						log.add({ "ADD_POINT", {} });
+						
+						log.add({"ADD_POINT"});
 					}
 				}
 			}
@@ -111,6 +123,13 @@ void CardField::close_all()
 {
 	for (Card* card : cards) {
 		card->close();
+	}
+}
+
+void CardField::close_cards(std::vector<std::string> closing_cards)
+{
+	for (std::string i : closing_cards) {
+		cards[std::stoi(i)]->close();
 	}
 }
 

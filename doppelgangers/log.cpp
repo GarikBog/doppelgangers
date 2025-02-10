@@ -49,6 +49,10 @@ std::pair<std::string, std::vector<std::string>> Log::get_request()
     }
     auto ans = requests.top().data();
     std::cout << "\nLOG RETURNED: " << ans.first;
+    std::cout << "\nARGS:";
+    for (std::string arg : ans.second) {
+        std::cout << "\n" << arg;
+    }
     requests.pop();
 
     return ans;

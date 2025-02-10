@@ -1,5 +1,7 @@
-﻿  doppengangers.cpp
-C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(82,31): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
+﻿  cardField.cpp
+C:\programming\cpp\doppelgangers\doppelgangers\cardField.cpp(67,12): warning C4244: аргумент: преобразование "time_t" в "unsigned int", возможна потеря данных
+  doppengangers.cpp
+C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(98,31): warning C4244: =: преобразование "double" в "unsigned int", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244: инициализация: преобразование "_Ty" в "_Ty1", возможна потеря данных
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         with
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16): warning C4244:         [
@@ -12,14 +14,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,25):
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(101,25):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<int,double,0>(_Other1 &&,_Other2 &&) noexcept"
           with
           [
               _Other1=int,
               _Other2=double
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,8):
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(101,8):
               см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
@@ -45,14 +47,14 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,64):
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(101,64):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<int,int>::pair<unsigned int&,double,0>(_Other1,_Other2 &&) noexcept"
           with
           [
               _Other1=unsigned int &,
               _Other2=double
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(85,8):
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(101,8):
               см. первую ссылку на std::pair<int,int>::pair "Doppelgagners::Doppelgagners"
   
 C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,54): warning C4244: инициализация: преобразование "_Ty" в "_Ty2", возможна потеря данных
@@ -78,14 +80,18 @@ C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.3
   (компиляция исходного файла "doppengangers.cpp")
       C:\Program Files\Microsoft Visual Studio\2022\Professional\VC\Tools\MSVC\14.42.34433\include\utility(263,16):
       контекст создания экземпляра шаблона (сначала самый старый)
-          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(90,37):
+          C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(106,37):
           выполняется компиляция ссылки на экземпляр шаблон функции "std::pair<float,float>::pair<double,int,0>(_Other1 &&,_Other2 &&) noexcept"
           with
           [
               _Other1=double,
               _Other2=int
           ]
-              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(90,17):
+              C:\programming\cpp\doppelgangers\doppelgangers\doppengangers.cpp(106,17):
               см. первую ссылку на std::pair<float,float>::pair "Doppelgagners::Doppelgagners"
   
+  main.cpp
+  Создание кода...
+  LINK : не найден или не выполнена сборка C:\programming\cpp\doppelgangers\x64\Debug\doppelgangers.exe при последней инкрементной компоновке; выполняется полная компоновка
+x64\Debug\game.obj : warning LNK4042: объект указан более одного раза; лишние не учитываются
   doppelgangers.vcxproj -> C:\programming\cpp\doppelgangers\x64\Debug\doppelgangers.exe

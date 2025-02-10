@@ -3,13 +3,28 @@
 #define DOPPELGANGERS
 #endif // !DOPPELGANGERS
 
+#ifndef CHRONO
+#include <chrono>
+#define CHRONO
+#endif // !CHRONO
+
+#ifndef THREAD
+#include <thread>
+#define THREAD
+#endif // !THREAD
 
 void Doppelgagners::draw()
 {
-	background->draw(*window);
-	field->draw(*window);
-	restart_button->draw(*window);
-	close_button->draw(*window);
+    window->clear();
+
+    background->draw(*window);
+    point_counter->draw(*window);
+    close_button->draw(*window);
+    restart_button->draw(*window);
+    field->draw(*window);
+
+    window->display();
+
 }
 
 void Doppelgagners::restart()
@@ -24,7 +39,7 @@ void Doppelgagners::restart()
 void Doppelgagners::process_log()
 {
     Request next = log.get_request();
-    while (next.data().first != "OPEN_CARD" && next.data().first != "EMPTY")
+    while (next.data().first != "OPEN_CARD" && next.data().first != "EMPTY" && next.data().first != "CLOSE_CARD")
     {
         process_request(next);
         next = log.get_request();
@@ -37,6 +52,13 @@ void Doppelgagners::process_request(Request& request)
     if (request.data().first == "RESTART") restart();
     if (request.data().first == "CLOSE") window->close();
     if (request.data().first == "ADD_POINT") point_counter->add_point();
+    if (request.data().first == "CLOSE_CARDS") field->close_cards(request.data().second);
+    if (request.data().first == "TIME_DELAY") {
+        draw();
+        std::this_thread::sleep_for(std::chrono::nanoseconds(10));
+        std::this_thread::sleep_until(std::chrono::system_clock::now() + std::chrono::seconds(1));
+
+    }
 }
 
 void Doppelgagners::start()
@@ -64,15 +86,9 @@ void Doppelgagners::start()
             }
         }
 
-        window->clear();
 
-        background->draw(*window);
-        point_counter->draw(*window);
-        close_button->draw(*window);
-        restart_button->draw(*window);
-        field->draw(*window);
+        draw();
 
-        window->display();
     }
 }
 
