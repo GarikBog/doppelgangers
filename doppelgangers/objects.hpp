@@ -56,7 +56,7 @@ public:
 	void draw(sf::RenderWindow& window);
 
 	Object(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
-	
+
 
 
 
@@ -70,18 +70,17 @@ protected:
 	Log& log;
 
 public:
+	virtual bool click(sf::Vector2i mouse_pos);
 
-	bool click(sf::Vector2i mouse_pos);
 
-	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
+	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
 };
-
 
 
 class CounterObject : public Object {
 
 protected:
-	
+
 
 	sf::Sprite left_cell, middle_cell, right_cell;
 
@@ -111,4 +110,13 @@ public:
 	CounterObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
 
 
+};
+
+class CloseButton : public ClickableObject {
+public:
+
+	bool click(sf::Vector2i mouse_pos);
+
+
+	CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };

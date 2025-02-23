@@ -14,28 +14,6 @@
 
 
 
-//CLOSE BUTTON
-bool CloseButton::click(sf::Vector2i mouse_pos)
-{
-	if (ClickableObject::click(mouse_pos)) {
-		log.add({ "CLOSE",{} });
-		return true;
-	}
-	return false;
-
-}
-
-
-CloseButton::CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log):
-	ClickableObject(pos,size,scale,texture_file,log)
-{
-}
-
-
-//CLOSE BUTTON
-
-
-
 
 
 //RESTART BUTTON

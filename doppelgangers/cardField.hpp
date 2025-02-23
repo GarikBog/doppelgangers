@@ -38,7 +38,7 @@ public:
 	
 	 
 	//TECH
-	void click(sf::Vector2i mouse_pos);
+	bool click(sf::Vector2i mouse_pos);
 	void recombinate();
 	void create_cards();
 	void draw(sf::RenderWindow& window);

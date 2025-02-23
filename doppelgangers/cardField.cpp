@@ -30,7 +30,7 @@
 
 
 
-void CardField::click(sf::Vector2i mouse_pos)
+bool CardField::click(sf::Vector2i mouse_pos)
 {
 	if (ClickableObject::click(mouse_pos)) {
 		for (int i = 0; i < cards.size(); ++i) {
@@ -56,10 +56,12 @@ void CardField::click(sf::Vector2i mouse_pos)
 						log.add({"ADD_POINT"});
 					}
 				}
+				return true;
 			}
 		}
 
 	}
+	return false;
 }
 
 void CardField::recombinate()
