@@ -56,7 +56,7 @@ public:
 	void draw(sf::RenderWindow& window);
 
 	Object(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
-
+	
 
 
 
@@ -73,7 +73,7 @@ public:
 	virtual bool click(sf::Vector2i mouse_pos);
 
 
-	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
+	ClickableObject(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
 };
 
 
@@ -112,11 +112,42 @@ public:
 
 };
 
+//CLOSE BUTTON
 class CloseButton : public ClickableObject {
+
+public:
+	bool click(sf::Vector2i mouse_pos) override;
+
+	CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file, Log& log);
+
+};
+//CLOSE BUTTON
+
+
+// Base_counter
+class Base_counter : public CounterObject {
+private:
+
+	int score = 0;
+	bool score_change = false;
 public:
 
-	bool click(sf::Vector2i mouse_pos);
+
+	//Setters
+
+	void set_score(unsigned int count);
+
+	//Getters
+	int get_score() const;
+
+	//Tech
+	void add_point();
+	void remove_point();
+	void reset();
+	void update() override;
 
 
-	CloseButton(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file,Log& log);
+	Base_counter(std::pair<float, float> pos, std::pair<int, int> size, std::pair<int, int> scale, std::string texture_file);
+
 };
+// Base_counter
